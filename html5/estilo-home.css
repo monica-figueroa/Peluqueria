@@ -1,0 +1,57 @@
+.tituloPrincipal{
+	padding-left: 30px;
+}
+
+#png{
+	width: 50%;
+	height: 50%;
+}
+
+.principal{
+	background: #cccccc;
+	padding: 20px;
+}
+
+.tituloCentralizado{
+	text-align: center;
+	
+}
+
+p{
+	text-align: center;
+	background: #cccccc;
+}
+
+
+em strong{
+	color: red ;
+}
+
+/*(#) Significa id*/
+#mision{
+	font-size: 20px; 
+	text-align: center;"
+}
+
+.diferenciales{
+	background: #ffffff;ç
+	padding: 20px;
+}
+
+/*(.) Es una clase definida*/
+.items{
+	font-style: italic;
+}
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagenDiferenciales{
+	width: 50%;
+}
+
+

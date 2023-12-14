@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Contacto - Peluqueria Melisa</title>
+		<link rel="stylesheet" href="../reset.css">
+		<link rel="stylesheet" href="producto.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="caja">
+				<h1><img src="../imagen/logo.jpg" alt="Logo de la peluqueria Melisa"></h1>
+			<nav>
+				<ul>
+				<li><a href="peluqueria.html">Home</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			</nav>
+			</div>
+		</header>
+		<main>
+			<form>
+				<label for="nombreapellido">Nombre y Apellido</label>
+				<input type="text" id="nombreapellido" class="input-padron" required>
+
+				<label for="correoelectronico">Correo Electronico</label>
+				<input type="text" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+				<label for="telefono">Telefono</label>
+				<input type="text" id="telefono" class="input-padron" required placeholder="(XXX) XXXX XXXX">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+				<fieldset>
+					<legend>Como le gustaria que lo contactemos</legend>
+
+					<label for="radio-email"><input type="radio" value="email" id="radio-email">Email</label>
+					
+
+					<label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono">Telefono</label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+					
+				</fieldset>
+
+				<fieldset>
+					<legend>¿En que horario quiere ser atendido?</legend>
+					<select>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Noche</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Peluqueria?</label>
+
+				<input type="submit" value="Enviar Formulario" class="enviar"> 
+			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horario</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Lunes</td>
+						<td>08h - 20h</td>
+					</tr>
+					<tr>
+						<td>Miercoles</td>
+						<td>08h - 20h</td>
+					</tr>
+					<tr>
+						<td>Viernes</td>
+						<td>08h - 20h</td>
+					</tr>
+				</tbody>
+				
+				
+			</table>
+		</main>
+		<footer>
+			<img src="../imagen/logo_blanco.jpg" alt="Logo de la peluqueria Melisa">
+			<p class="copyright">Copyright Peluqueria Melisa - 2023</p>
+		</footer>
+	</body>
+</html>
